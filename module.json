@@ -1,0 +1,35 @@
+{
+	"id": "bc-actors",
+	"name": "bc-actors",
+	"title": "Broken Compass Actors",
+	"description": "A module for Broken Compass RPG",
+	"authors": [
+		{
+			"name": "Jetro",
+			"discord": "Jetro#2146",
+			"flags": {}
+		}
+	],
+	"version": "1.0.0",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10.285"
+	},
+	"url": "",
+	"manifest": "",
+	"download": "",
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		},
+		{
+			"lang": "it",
+			"name": "Italiano",
+			"path": "lang/it.json"
+		}
+	],
+	"styles": ["styles/style.css"],
+	"esmodules": ["scripts/main.js"]
+}
