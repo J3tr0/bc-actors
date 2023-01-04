@@ -1,0 +1,49 @@
+<form class='flexcol {{cssClass}}' autocomplete='off'>
+	<header class='sheet-header'>
+		<img
+			class='profile-img'
+			src='{{data.img}}'
+			data-edit='img'
+			title='{{data.name}}'
+			height='100'
+			width='100'
+		/>
+		<div class='header-fields'>
+			<h1 class='charname'>
+				<input
+					name='name'
+					type='text'
+					value='{{data.name}}'
+					placeholder='Name'
+				/>
+			</h1>
+			<div class='resource'>
+				<input
+					type='number'
+					name='system.health.value'
+					value='{{systemData.health.value}}'
+				/>
+				<span> / </span>
+				<input
+					type='number'
+					name='system.health.max'
+					value='{{systemData.health.max}}'
+				/>
+			</div>
+			<div class='resource'>
+				<input
+					type='number'
+					name='system.power.value'
+					value='{{systemData.power.value}}'
+				/>
+				<span> / </span>
+				<input
+					type='number'
+					name='system.power.max'
+					value='{{systemData.power.max}}'
+				/>
+			</div>
+		</div>
+	</header>
+	<input name='data.callme' type='text' value='{{actor.data.data.callme}}' />
+</form>

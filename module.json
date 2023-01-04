@@ -10,12 +10,12 @@
 			"flags": {}
 		}
 	],
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"compatibility": {
 		"minimum": "10",
-		"verified": "10.285"
+		"verified": "10.286"
 	},
-	"url": "",
+	"url": "https://github.com/J3tr0/bc-actors",
 	"manifest": "",
 	"download": "",
 	"languages": [
